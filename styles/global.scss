@@ -1,0 +1,54 @@
+@import './colors';
+
+body {
+  margin: 0;
+  font-family: 'Sarabun', sans-serif;
+  background-color: $bg-light;
+  color: $text-dark;
+}
+
+.header {
+  background-color: $green;
+  color: white;
+  padding: 1rem;
+
+  h1 {
+    margin: 0;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin-top: 0.5rem;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.main {
+  padding: 2rem;
+
+  .hero {
+    background-color: $yellow;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+  }
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: $green;
+  color: white;
+  margin-top: 2rem;
+}

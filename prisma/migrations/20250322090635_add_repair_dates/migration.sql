@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Repair" ADD COLUMN     "completedAt" TIMESTAMP(3),
+ADD COLUMN     "receivedAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP;
